@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <h1>Event Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h2>Welcome to Our Event Portal</h2>
+        <p>Manage and attend amazing events effortlessly!</p>
+    </section>
+
+    <!-- Event Listings -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li><strong>Tech Conference 2025</strong> - April 5, 2025</li>
+            <li><strong>Music Festival</strong> - May 10, 2025</li>
+            <li><strong>Startup Meetup</strong> - June 15, 2025</li>
+        </ul>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2>Register for an Event</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="event">Choose Event:</label>
+            <select id="event" name="event">
+                <option value="tech">Tech Conference 2025</option>
+                <option value="music">Music Festival</option>
+                <option value="startup">Startup Meetup</option>
+            </select><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us: eventmanager@example.com | +123-456-7890</p>
+        <p>&copy; 2025 Event Management System</p>
+    </footer>
+</body>
+</html>
